@@ -10,4 +10,4 @@ while True:
 
 f = open('mydata.txt', 'w')
 f.writelines(data)
-c.close()
+f.close()
