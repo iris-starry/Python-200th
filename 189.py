@@ -9,7 +9,8 @@ fighter_height = 38
 
 # 게임에 등장하는 객체를 드로잉
 def drawObject(obj, x, y):
-    global gamepadgamepad.blit(obj, (x,y))
+    global gamepad
+    gamepad.blit(obj, (x,y))
 
 # 게임 실행 메인 함수
 def runGame():
